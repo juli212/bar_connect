@@ -1,0 +1,16 @@
+
+<h2>Please complete the form to register</h2>
+
+<% if @errors %>
+  <% @errors.each do |error| %>
+    <p><%= error %> </p>
+  <% end %>
+<% end %>
+
+<form id="new-user-form" action='/users' method='POST'>
+  Username: <input type='text' name='user[username]'><br>
+  Email: <input type='text' name='user[email]'><br>
+  Password: <input type='password' name='user[password]'><br>
+  Bio: <input type='text' name='user[bio]'><br>
+  <input type='submit' value='Create Account'>
+</form>
