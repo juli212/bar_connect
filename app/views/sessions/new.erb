@@ -1,0 +1,13 @@
+<h3>Please enter your login information below:</h3>
+
+<% if @errors %>
+  <% @errors.each do |error| %>
+    <p><%= error %> </p>
+  <% end %>
+<% end %>
+
+<form id="new-session" action="/login" method="post">
+  Username: <input type="text" name="username"><br>
+  Password: <input type="password" name="password"><br>
+  <input type="submit" value="login">
+</form>
