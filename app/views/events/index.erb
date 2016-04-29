@@ -1,6 +1,7 @@
 <h1> Event List </h1>
 <% @events.each do |event| %>
-  <p>Title: <a href="/events/<%= event.id %>"><%=event.title%></a></p>
+<hr id="line">
+  <h3><a href="/events/<%= event.id %>"><%=event.title%></a></h3>
   <p>Location: <%=event.location%></p>
   <p>Deadline: <%=event.deadline%></p>
 <% end %>
