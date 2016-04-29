@@ -9,6 +9,8 @@ end
 
 post '/events' do
   @event = Event.new(params[:event])
+  # binding.pry
+  @event.user_id = session[:user_id]
   if @event.save
     redirect '/events'
   else
