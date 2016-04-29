@@ -1,20 +1,39 @@
 body {
   background-color: #696969;
+  width: 1000px;
+  margin: 0 auto;
+
 }
 body ul{
   list-style-type: none;
 }
 
+body a {
+  text-decoration: none;
+}
+
 body ul li {
   display: inline-block;
-  padding: 0px 5px;
-  margin: ;
-  border-left: 1px solid #faebd7;
-  border-right: 1px solid #faebd7;
+  padding: 0px 10px;
+  margin: 0px -3.5px
+;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
 }
 
 body ul a {
   text-decoration: none;
+  color: white;
+}
+
+nav {
+  margin-left: -12px;
+}
+
+#yield {
+  margin-left: 25px;
+  padding-left: 30px;
+  border-left: 1px solid white;
 }
 
 #homepage {
@@ -177,4 +196,22 @@ h1 {
   background-color: #faebd7;
 }
 
+#right {
+float: right;
+  width: 300px;
+  display: inline-block;
+  margin-right: 200px;
+}
 
+#left {
+  margin-left: 20px;
+  position: relative;
+  width: 400px;
+  display: inline-block;
+  top: 0px;
+}
+
+#line {
+  width: 300px;
+  margin-left: -15px;
+}
