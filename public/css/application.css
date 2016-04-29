@@ -68,7 +68,7 @@ h1 {
 }
 
 #login a:hover {
-  background-color: #B22222;
+  background-color: #696969;
   border-radius: 6px;
   transition: background-color .5s linear;
 }
@@ -95,7 +95,7 @@ h1 {
 }
 
 #register a:hover {
-  background-color: #B22222;
+  background-color: #696969;
   border-radius: 6px;
   transition: background-color .5s linear;
 }
@@ -114,12 +114,36 @@ h1 {
   border-radius: 9px;
 }
 
+#new-user-form {
+  text-align: center;
+  padding: 6px 0px 0px;
+  background-color: black;
+  opacity: .9;
+  border-radius: 9px;
+}
+
+#register-title {
+  margin-bottom: 15px;
+}
+
+
+
+#new-user-form input {
+  background-color: #faebd7;
+  width: 190px;
+  height: 30.5px;
+  margin: 15px 30px;
+  border-radius: 5.1px;
+  opacity: 1;
+}
+
 #new-session h1 {
   /*padding: 0px;*/
   margin: 14px;
 }
 
 #new-session input {
+  background-color: #faebd7;
   width: 190px;
   height: 30.5px;
   margin: 20px 30px;
