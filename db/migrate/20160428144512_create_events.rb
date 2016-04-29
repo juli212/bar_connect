@@ -9,7 +9,6 @@ class CreateEvents < ActiveRecord::Migration
       t.date :deadline, null: false
       t.integer :minimum, null: false
       t.integer :maximum, null: false
-      t.references :user, null: false
       # t.references :game, null: false
 
       t.timestamps null: false

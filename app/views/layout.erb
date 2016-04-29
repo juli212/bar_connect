@@ -21,11 +21,11 @@
   <h1>BAR CONNECT</h1>
   <nav>
     <ul>
-
+      <li><a href="/events">Event Listings</a></li>
       <% if logged_in? %>
         <li><a href="/logout">Logout</a></li>
         <li><a href='/users/<%= current_user.id %>'><%= current_user.username %></a></li>
-        <li><a href="events/new">Create New Event</a></li>
+        <li><a href="/events/new">Create New Event</a></li>
       <% end %>
     </ul>
   </nav>
