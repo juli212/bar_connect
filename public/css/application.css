@@ -1,3 +1,22 @@
+body {
+  background-color: #696969;
+}
+body ul{
+  list-style-type: none;
+}
+
+body ul li {
+  display: inline-block;
+  padding: 0px 5px;
+  margin: ;
+  border-left: 1px solid #faebd7;
+  border-right: 1px solid #faebd7;
+}
+
+body ul a {
+  text-decoration: none;
+}
+
 #homepage {
   width: 1200px;
   height: 600px;
@@ -92,6 +111,7 @@ h1 {
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-weight: bold;
   padding: 10px 20px;
+  color: #faebd7;
 }
 
 #register a:hover {
