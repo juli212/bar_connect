@@ -9,8 +9,9 @@ end
 
 post '/events' do
   @event = Event.new(params[:event])
-  # binding.pry
-  @event.user_id = session[:user_id]
+  @user = User.find_by(id: session[:user_id])
+  @user.events << @event
+
   if @event.save
     redirect '/events'
   else
